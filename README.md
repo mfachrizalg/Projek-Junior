@@ -2,5 +2,5 @@
 deskripsi singkat aplikasi
 NAMA KELOMPOK ANDA
 Ketua Kelompok: Muhammad Fachrizal Giffari
-Anggota 1:
-Anggota 2:
+Anggota 1: Yodha Raya Nayaala
+Anggota 2: Dhimas bantul
