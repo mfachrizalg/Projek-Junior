@@ -1,8 +1,9 @@
-#NAMA APLIKASI
+#SISARASA
 
-deskripsi singkat aplikasi
+Deskripsi Singkat
 
-NAMA KELOMPOK ANDA
+BandTull
+
 Ketua Kelompok : Muhammad Fachrizal Giffari
 Anggota 1 : Yodha Raya Nayaala
 Anggota 2 : Dhimas Nurhanindya Putra
