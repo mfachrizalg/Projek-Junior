@@ -2,7 +2,7 @@
 
 Deskripsi Singkat
 
-BandTull
+Purwodadi
 
 Ketua Kelompok : Muhammad Fachrizal Giffari
 Anggota 1 : Yodha Raya Nayaala
