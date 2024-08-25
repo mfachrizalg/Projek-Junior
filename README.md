@@ -1,10 +1,14 @@
-#SISARASA
+# SISARASA
 
-SISARASA merupakan aplikasi yang dibuat dengan berdasarkan concern kita terhadap Food Loss and Waste (FLW). Dalam aplikasi ini penyedia jasa layanan makanan dapat menjual makanannya yang tidak habis terjual pada hari itu juga kemudian akan dilakukan quality control oleh penyedia layanan apakah makanan tersebut layak dijual atau tidak, kemudian pembeli dapat memilih makanan sesuai apa yang diinginkannya. 
+### SISARASA merupakan aplikasi yang dibuat dengan berdasarkan concern kita terhadap Food Loss and Waste (FLW). Dalam aplikasi ini penyedia jasa layanan makanan dapat menjual makanannya yang tidak habis terjual pada hari itu juga kemudian akan dilakukan quality control oleh penyedia layanan apakah makanan tersebut layak dijual atau tidak, kemudian pembeli dapat memilih makanan sesuai apa yang diinginkannya. 
 
 
-Purwodadi
-
-Ketua Kelompok : Muhammad Fachrizal Giffari
-Anggota 1 : Yodha Raya Nayaala
-Anggota 2 : Dhimas Nurhanindya Putra
+ 
+### Kelompok 3
+### Kelas B3 (Lab Dasar 3)
+**Ketua Kelompok : Muhammad Fachrizal Giffari**
+|**NIM**                     | **Nama**                                  | **Role**                   |
+|----------------------------|-------------------------------------------|----------------------------|
+| **22/498215/TK/54641**     | **Yodha Raya Nayaala**                    | **Front-End Developer**    |
+| **22/504570/TK/55192**     | **Muhammad Fachrizal Giffari**            | **Software Architecture**  |
+| **22/505433/TK/55309**     | **Dhimas Nurhanindya Putra**              | **Back-End Developer**     |
