@@ -19,6 +19,7 @@
             }
             base.Dispose(disposing);
         // perubahan
+        // perubahan 2
         }
 
         #region Windows Form Designer generated code
