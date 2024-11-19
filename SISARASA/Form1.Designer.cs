@@ -20,6 +20,7 @@
             base.Dispose(disposing);
         // perubahan
         // perubahan 2
+        // perubahan di branch dhimas
         }
 
         #region Windows Form Designer generated code
