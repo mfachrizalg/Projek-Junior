@@ -42,6 +42,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             textBox2 = new TextBox();
             textBox1 = new TextBox();
@@ -63,6 +64,7 @@
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            picboxExitSignIn = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panelSignIn.SuspendLayout();
@@ -71,6 +73,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picboxExitSignIn).BeginInit();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -311,8 +314,8 @@
             // 
             // pictureBox4
             // 
-            pictureBox4.Image = Properties.Resources.salad_2515150_1;
-            pictureBox4.Location = new Point(1113, 282);
+            pictureBox4.Image = Properties.Resources.salad_2515150;
+            pictureBox4.Location = new Point(610, 21);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(185, 243);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
@@ -321,8 +324,8 @@
             // 
             // pictureBox5
             // 
-            pictureBox5.Image = Properties.Resources.diet_706133_1;
-            pictureBox5.Location = new Point(1026, 520);
+            pictureBox5.Image = Properties.Resources.diet_706133;
+            pictureBox5.Location = new Point(1138, 577);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(299, 225);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
@@ -331,13 +334,29 @@
             // 
             // pictureBox6
             // 
-            pictureBox6.Image = Properties.Resources.breakfast_2144670_1;
-            pictureBox6.Location = new Point(1087, -46);
+            pictureBox6.Image = Properties.Resources.breakfast_2144670;
+            pictureBox6.Location = new Point(497, 577);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(211, 276);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 3;
             pictureBox6.TabStop = false;
+            // 
+            // picboxExitSignIn
+            // 
+            picboxExitSignIn.Cursor = Cursors.Hand;
+            picboxExitSignIn.Image = Properties.Resources.letter_x_9313434;
+            picboxExitSignIn.ImageRotate = 0F;
+            picboxExitSignIn.InitialImage = null;
+            picboxExitSignIn.Location = new Point(1228, 12);
+            picboxExitSignIn.Name = "picboxExitSignIn";
+            picboxExitSignIn.ShadowDecoration.CustomizableEdges = customizableEdges11;
+            picboxExitSignIn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            picboxExitSignIn.Size = new Size(54, 57);
+            picboxExitSignIn.SizeMode = PictureBoxSizeMode.Zoom;
+            picboxExitSignIn.TabIndex = 9;
+            picboxExitSignIn.TabStop = false;
+            picboxExitSignIn.Click += picboxExitSignIn_Click;
             // 
             // Form1
             // 
@@ -345,6 +364,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1294, 740);
+            Controls.Add(picboxExitSignIn);
             Controls.Add(panelSignIn);
             Controls.Add(guna2Panel1);
             Controls.Add(pictureBox5);
@@ -363,6 +383,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picboxExitSignIn).EndInit();
             ResumeLayout(false);
         }
 
@@ -389,5 +410,6 @@
         private PictureBox pictureBox6;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Guna.UI2.WinForms.Guna2TextBox txtPass;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox picboxExitSignIn;
     }
 }

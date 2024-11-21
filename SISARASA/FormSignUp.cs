@@ -48,5 +48,10 @@ namespace SISARASA
         {
 
         }
+
+        private void picboxExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
