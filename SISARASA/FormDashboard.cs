@@ -16,5 +16,24 @@ namespace SISARASA
         {
             InitializeComponent();
         }
+
+        private void lblProfile_Click(object sender, EventArgs e)
+        {
+            FormProfile formProfile = new FormProfile();
+            formProfile.Show();
+            Visible = false;
+        }
+
+        private void picboxExitDashboard_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void lblCart_Click(object sender, EventArgs e)
+        {
+            FormCart formCart = new FormCart();
+            formCart.Show();
+            Visible = false;
+        }
     }
 }

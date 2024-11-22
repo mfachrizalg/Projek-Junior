@@ -58,7 +58,12 @@ namespace SISARASA
 
         private void txtPass_TextChanged(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void picboxExitSignIn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
