@@ -73,6 +73,26 @@ namespace SISARASA.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _68292979_053C_4FD6_BCD9_60841B97EAC5__1 {
+            get {
+                object obj = ResourceManager.GetObject("{68292979-053C-4FD6-BCD9-60841B97EAC5} 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_button_15600739 {
+            get {
+                object obj = ResourceManager.GetObject("add-button_15600739", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AiOutlineMail {
             get {
                 object obj = ResourceManager.GetObject("AiOutlineMail", resourceCulture);
@@ -123,6 +143,16 @@ namespace SISARASA.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Caesar_Salad_7_SQ_1 {
+            get {
+                object obj = ResourceManager.GetObject("Caesar-Salad_7-SQ 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap camera_16514494 {
             get {
                 object obj = ResourceManager.GetObject("camera_16514494", resourceCulture);
@@ -163,6 +193,26 @@ namespace SISARASA.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__3__1 {
+            get {
+                object obj = ResourceManager.GetObject("images (3) 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IoLocation {
+            get {
+                object obj = ResourceManager.GetObject("IoLocation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IoLockClosedOutline {
             get {
                 object obj = ResourceManager.GetObject("IoLockClosedOutline", resourceCulture);
@@ -196,6 +246,26 @@ namespace SISARASA.Properties {
         internal static System.Drawing.Bitmap letter_x_9313434 {
             get {
                 object obj = ResourceManager.GetObject("letter-x_9313434", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap profile {
+            get {
+                object obj = ResourceManager.GetObject("profile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resep_sate_padang_sederhana_ala_rumahan_bumbu_kuahnya_enak64_2 {
+            get {
+                object obj = ResourceManager.GetObject("resep-sate-padang-sederhana-ala-rumahan-bumbu-kuahnya-enak64 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
