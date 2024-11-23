@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.Eventing.Reader;
+﻿using SISARASA.Class;
+using System.Diagnostics.Eventing.Reader;
 
 namespace SISARASA
 {
@@ -34,7 +35,8 @@ namespace SISARASA
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if (txtPass.Text == "admin" && txtUsername.Text == "admin")
+            var user = new Pengguna();
+            if (user.Login(txtUsername.Text, txtPass.Text))
             {
                 FormDashboard formDashboard = new FormDashboard();
                 formDashboard.Show();
