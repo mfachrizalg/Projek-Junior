@@ -16,5 +16,33 @@ namespace SISARASA
         {
             InitializeComponent();
         }
+
+        private void picboxExitCartCheckOut_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void checkBoxDelivery_Click(object sender, EventArgs e)
+        {
+            if (checkBoxDelivery.Checked)
+            {
+                checkBoxPickUp.Checked = false;
+            }
+        }
+
+        private void checkBoxPickUp_Click(object sender, EventArgs e)
+        {
+            if (checkBoxPickUp.Checked)
+            {
+                checkBoxDelivery.Checked = false;
+            }
+        }
+
+        private void btnCancelOnCheckOut_Click(object sender, EventArgs e)
+        {
+            FormCart formCart = new FormCart();
+            formCart.Show();
+            Visible = false;
+        }
     }
 }

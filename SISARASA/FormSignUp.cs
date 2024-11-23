@@ -53,5 +53,14 @@ namespace SISARASA
         {
             Application.Exit();
         }
+
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Sign up Successful", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Close();
+        }
     }
 }

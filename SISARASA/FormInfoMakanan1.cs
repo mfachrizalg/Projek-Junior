@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace SISARASA
 {
-    public partial class FormDashboard : Form
+    public partial class FormInfoMakanan1 : Form
     {
-        public FormDashboard()
+        public FormInfoMakanan1()
         {
             InitializeComponent();
-        }
-
-        private void lblProfile_Click(object sender, EventArgs e)
-        {
-            FormProfile formProfile = new FormProfile();
-            formProfile.Show();
-            Visible = false;
         }
 
         private void picboxExitDashboard_Click(object sender, EventArgs e)
@@ -29,14 +22,22 @@ namespace SISARASA
             Application.Exit();
         }
 
-        private void lblCart_Click(object sender, EventArgs e)
+        private void lblProfile_Click(object sender, EventArgs e)
         {
-            FormCart formCart = new FormCart();
-            formCart.Show();
+            FormProfile formProfile = new FormProfile();
+            formProfile.Show();
+            Visible = false;
+
+        }
+
+        private void lblDashboard_Click(object sender, EventArgs e)
+        {
+            FormDashboard formDashboard = new FormDashboard();
+            formDashboard.Show();
             Visible = false;
         }
 
-        private void pictBox3_Click(object sender, EventArgs e)
+        private void lblCart_Click(object sender, EventArgs e)
         {
             FormCart formCart = new FormCart();
             formCart.Show();
