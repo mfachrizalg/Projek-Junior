@@ -121,23 +121,35 @@
   <data name="AiOutlineMail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AiOutlineMail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="resep-sate-padang-sederhana-ala-rumahan-bumbu-kuahnya-enak64 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resep-sate-padang-sederhana-ala-rumahan-bumbu-kuahnya-enak64 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1114926-1000xauto-14-resep-cara-membuat-ayam-bakar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1114926-1000xauto-14-resep-cara-membuat-ayam-bakar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="diet_706133 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diet_706133 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="delicious-iced-tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delicious-iced-tea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IoLocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IoLocation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="diet_706133" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diet_706133.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="{68292979-053C-4FD6-BCD9-60841B97EAC5} 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\{68292979-053C-4FD6-BCD9-60841B97EAC5} 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="breakfast_2144670 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\breakfast_2144670 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IoLockClosedOutline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IoLockClosedOutline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images (3) 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (3) 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Caesar-Salad_7-SQ 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Caesar-Salad_7-SQ 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +163,14 @@
   <data name="IoPeopleOutline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IoPeopleOutline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="breakfast_2144670" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\breakfast_2144670.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IoLockClosedOutline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IoLockClosedOutline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IoReaderOutline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IoReaderOutline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delicious-iced-tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delicious-iced-tea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="camera_16514494" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\camera_16514494.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,10 +178,13 @@
   <data name="AiOutlineUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AiOutlineUser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="breakfast_2144670" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\breakfast_2144670.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="salad_2515150" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salad_2515150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IoReaderOutline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IoReaderOutline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="add-button_15600739" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-button_15600739.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
