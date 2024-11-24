@@ -27,7 +27,7 @@ namespace SISARASA
             FormProfile formProfile = new FormProfile();
             formProfile.Show();
             Visible = false;
-
+            this.Dispose();
         }
 
         private void lblDashboard_Click(object sender, EventArgs e)
@@ -35,6 +35,7 @@ namespace SISARASA
             FormDashboard formDashboard = new FormDashboard();
             formDashboard.Show();
             Visible = false;
+            this.Dispose();
         }
 
         private void lblCart_Click(object sender, EventArgs e)
@@ -42,6 +43,15 @@ namespace SISARASA
             FormCart formCart = new FormCart();
             formCart.Show();
             Visible = false;
+            this.Dispose();
+        }
+
+        private void btnAddToCart_Click(object sender, EventArgs e)
+        {
+            FormCart formCart = new FormCart();
+            formCart.Show();
+            Visible = false;
+            this.Dispose();
         }
     }
 }

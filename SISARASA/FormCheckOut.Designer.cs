@@ -29,11 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -55,11 +51,6 @@
             lblProfileonCartCheckout = new Label();
             sisarasaataskirionCartCheckout = new Label();
             lblCheckOut = new Label();
-            lblMakananCheckout = new Label();
-            picturebox1onCart = new Guna.UI2.WinForms.Guna2PictureBox();
-            lblCheckOutMakananrightpic = new Label();
-            pictureBox1 = new PictureBox();
-            textboxNo1 = new Guna.UI2.WinForms.Guna2TextBox();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             checkBoxDelivery = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             checkBoxPickUp = new Guna.UI2.WinForms.Guna2CustomCheckBox();
@@ -78,10 +69,9 @@
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             lblAlamatCheckOut = new Label();
             btnCancelOnCheckOut = new Guna.UI2.WinForms.Guna2Button();
+            userControlCheckOut1 = new UserControlCheckOut();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picboxExitCartCheckOut).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picturebox1onCart).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -113,7 +103,7 @@
             picboxExitCartCheckOut.InitialImage = null;
             picboxExitCartCheckOut.Location = new Point(1228, 12);
             picboxExitCartCheckOut.Name = "picboxExitCartCheckOut";
-            picboxExitCartCheckOut.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            picboxExitCartCheckOut.ShadowDecoration.CustomizableEdges = customizableEdges13;
             picboxExitCartCheckOut.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             picboxExitCartCheckOut.Size = new Size(54, 57);
             picboxExitCartCheckOut.SizeMode = PictureBoxSizeMode.Zoom;
@@ -185,76 +175,6 @@
             lblCheckOut.Size = new Size(206, 44);
             lblCheckOut.TabIndex = 4;
             lblCheckOut.Text = "Check Out";
-            // 
-            // lblMakananCheckout
-            // 
-            lblMakananCheckout.AutoSize = true;
-            lblMakananCheckout.Font = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMakananCheckout.Location = new Point(52, 187);
-            lblMakananCheckout.Name = "lblMakananCheckout";
-            lblMakananCheckout.Size = new Size(191, 26);
-            lblMakananCheckout.TabIndex = 4;
-            lblMakananCheckout.Text = "Ayam Bakar Dafri";
-            // 
-            // picturebox1onCart
-            // 
-            picturebox1onCart.BorderRadius = 40;
-            picturebox1onCart.CustomizableEdges = customizableEdges15;
-            picturebox1onCart.Image = Properties.Resources._1114926_1000xauto_14_resep_cara_membuat_ayam_bakar;
-            picturebox1onCart.ImageRotate = 0F;
-            picturebox1onCart.Location = new Point(52, 238);
-            picturebox1onCart.Name = "picturebox1onCart";
-            picturebox1onCart.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            picturebox1onCart.Size = new Size(197, 193);
-            picturebox1onCart.SizeMode = PictureBoxSizeMode.Zoom;
-            picturebox1onCart.TabIndex = 5;
-            picturebox1onCart.TabStop = false;
-            // 
-            // lblCheckOutMakananrightpic
-            // 
-            lblCheckOutMakananrightpic.AutoSize = true;
-            lblCheckOutMakananrightpic.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblCheckOutMakananrightpic.Location = new Point(271, 258);
-            lblCheckOutMakananrightpic.Name = "lblCheckOutMakananrightpic";
-            lblCheckOutMakananrightpic.Size = new Size(166, 23);
-            lblCheckOutMakananrightpic.TabIndex = 4;
-            lblCheckOutMakananrightpic.Text = "Ayam Bakar Dafri";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.IoReaderOutline;
-            pictureBox1.Location = new Point(254, 285);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(21, 29);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
-            // 
-            // textboxNo1
-            // 
-            textboxNo1.BackColor = Color.Transparent;
-            textboxNo1.BorderColor = Color.Gray;
-            textboxNo1.BorderRadius = 20;
-            textboxNo1.BorderThickness = 3;
-            textboxNo1.Cursor = Cursors.IBeam;
-            textboxNo1.CustomizableEdges = customizableEdges13;
-            textboxNo1.DefaultText = "";
-            textboxNo1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            textboxNo1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            textboxNo1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            textboxNo1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            textboxNo1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            textboxNo1.Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textboxNo1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            textboxNo1.Location = new Point(282, 285);
-            textboxNo1.Margin = new Padding(3, 4, 3, 4);
-            textboxNo1.Name = "textboxNo1";
-            textboxNo1.PasswordChar = '\0';
-            textboxNo1.PlaceholderText = "";
-            textboxNo1.SelectedText = "";
-            textboxNo1.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            textboxNo1.Size = new Size(322, 124);
-            textboxNo1.TabIndex = 7;
             // 
             // guna2TextBox1
             // 
@@ -401,7 +321,7 @@
             lblhargamakanantotal.Name = "lblhargamakanantotal";
             lblhargamakanantotal.Size = new Size(113, 21);
             lblhargamakanantotal.TabIndex = 4;
-            lblhargamakanantotal.Text = "Rp60.000,00";
+            lblhargamakanantotal.Text = "Rp50.000,00";
             // 
             // label3
             // 
@@ -432,7 +352,7 @@
             lblhargaCheckOut.Name = "lblhargaCheckOut";
             lblhargaCheckOut.Size = new Size(125, 24);
             lblhargaCheckOut.TabIndex = 4;
-            lblhargaCheckOut.Text = "Rp65.000,00";
+            lblhargaCheckOut.Text = "Rp55.000,00";
             // 
             // btnPayment
             // 
@@ -497,22 +417,28 @@
             btnCancelOnCheckOut.Text = "Cancel";
             btnCancelOnCheckOut.Click += btnCancelOnCheckOut_Click;
             // 
+            // userControlCheckOut1
+            // 
+            userControlCheckOut1.BackColor = Color.White;
+            userControlCheckOut1.Location = new Point(1, 167);
+            userControlCheckOut1.Name = "userControlCheckOut1";
+            userControlCheckOut1.Size = new Size(796, 245);
+            userControlCheckOut1.TabIndex = 13;
+            // 
             // FormCheckOut
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1294, 740);
+            Controls.Add(userControlCheckOut1);
             Controls.Add(lblAlamatCheckOut);
             Controls.Add(guna2PictureBox1);
             Controls.Add(btnCancelOnCheckOut);
             Controls.Add(btnPayment);
             Controls.Add(checkBoxPickUp);
             Controls.Add(checkBoxDelivery);
-            Controls.Add(pictureBox1);
             Controls.Add(guna2TextBox1);
-            Controls.Add(textboxNo1);
-            Controls.Add(picturebox1onCart);
             Controls.Add(lblPickUp);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -524,8 +450,6 @@
             Controls.Add(lblhargaCheckOut);
             Controls.Add(lblTotalCheckOut);
             Controls.Add(lblRincianPembayaran);
-            Controls.Add(lblCheckOutMakananrightpic);
-            Controls.Add(lblMakananCheckout);
             Controls.Add(lblCheckOut);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
@@ -535,8 +459,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picboxExitCartCheckOut).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picturebox1onCart).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -552,12 +474,7 @@
         private Label lblDashboardonCartCheckout;
         private Label lblProfileonCartCheckout;
         private Label sisarasaataskirionCartCheckout;
-        private Label lblMakananCheckout;
         private Label lblCheckOut;
-        private Guna.UI2.WinForms.Guna2PictureBox picturebox1onCart;
-        private Label lblCheckOutMakananrightpic;
-        private PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2TextBox textboxNo1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2CustomCheckBox checkBoxPickUp;
         private Guna.UI2.WinForms.Guna2CustomCheckBox checkBoxDelivery;
@@ -576,5 +493,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Label lblAlamatCheckOut;
         private Guna.UI2.WinForms.Guna2Button btnCancelOnCheckOut;
+        private UserControlCheckOut userControlCheckOut1;
     }
 }

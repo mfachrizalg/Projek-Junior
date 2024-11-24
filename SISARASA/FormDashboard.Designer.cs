@@ -47,14 +47,10 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            pictBox4 = new PictureBox();
-            pictBox3 = new PictureBox();
-            pictBox2 = new PictureBox();
-            pictbox1 = new PictureBox();
-            lblMakanan4 = new Label();
-            lblMakanan3 = new Label();
-            lblMakanan2 = new Label();
-            lblMakanan1 = new Label();
+            userControlKomponenMakanan4 = new UserControlKomponenMakanan();
+            userControlKomponenMakanan3 = new UserControlKomponenMakanan();
+            userControlKomponenMakanan2 = new UserControlKomponenMakanan();
+            userControlKomponenMakanan1 = new UserControlKomponenMakanan();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             lblUsernameDashboard = new Label();
             lblAlamatOnDashboard = new Label();
@@ -64,10 +60,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictbox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -208,14 +200,10 @@
             guna2Panel1.BorderColor = Color.LightGray;
             guna2Panel1.BorderRadius = 20;
             guna2Panel1.BorderThickness = 5;
-            guna2Panel1.Controls.Add(pictBox4);
-            guna2Panel1.Controls.Add(pictBox3);
-            guna2Panel1.Controls.Add(pictBox2);
-            guna2Panel1.Controls.Add(pictbox1);
-            guna2Panel1.Controls.Add(lblMakanan4);
-            guna2Panel1.Controls.Add(lblMakanan3);
-            guna2Panel1.Controls.Add(lblMakanan2);
-            guna2Panel1.Controls.Add(lblMakanan1);
+            guna2Panel1.Controls.Add(userControlKomponenMakanan4);
+            guna2Panel1.Controls.Add(userControlKomponenMakanan3);
+            guna2Panel1.Controls.Add(userControlKomponenMakanan2);
+            guna2Panel1.Controls.Add(userControlKomponenMakanan1);
             guna2Panel1.CustomizableEdges = customizableEdges3;
             guna2Panel1.Location = new Point(77, 359);
             guna2Panel1.Name = "guna2Panel1";
@@ -223,94 +211,40 @@
             guna2Panel1.Size = new Size(1158, 325);
             guna2Panel1.TabIndex = 4;
             // 
-            // pictBox4
+            // userControlKomponenMakanan4
             // 
-            pictBox4.Cursor = Cursors.Hand;
-            pictBox4.Image = Properties.Resources.resep_sate_padang_sederhana_ala_rumahan_bumbu_kuahnya_enak64_2;
-            pictBox4.Location = new Point(874, 23);
-            pictBox4.Name = "pictBox4";
-            pictBox4.Size = new Size(230, 219);
-            pictBox4.SizeMode = PictureBoxSizeMode.Zoom;
-            pictBox4.TabIndex = 0;
-            pictBox4.TabStop = false;
+            userControlKomponenMakanan4.BackColor = Color.White;
+            userControlKomponenMakanan4.Location = new Point(886, 24);
+            userControlKomponenMakanan4.Name = "userControlKomponenMakanan4";
+            userControlKomponenMakanan4.Size = new Size(228, 278);
+            userControlKomponenMakanan4.TabIndex = 0;
             // 
-            // pictBox3
+            // userControlKomponenMakanan3
             // 
-            pictBox3.Cursor = Cursors.Hand;
-            pictBox3.Image = Properties.Resources._1114926_1000xauto_14_resep_cara_membuat_ayam_bakar;
-            pictBox3.Location = new Point(614, 23);
-            pictBox3.Name = "pictBox3";
-            pictBox3.Size = new Size(230, 219);
-            pictBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            pictBox3.TabIndex = 0;
-            pictBox3.TabStop = false;
-            pictBox3.Click += pictBox3_Click;
+            userControlKomponenMakanan3.BackColor = Color.White;
+            userControlKomponenMakanan3.Location = new Point(603, 24);
+            userControlKomponenMakanan3.Name = "userControlKomponenMakanan3";
+            userControlKomponenMakanan3.Size = new Size(228, 278);
+            userControlKomponenMakanan3.TabIndex = 0;
             // 
-            // pictBox2
+            // userControlKomponenMakanan2
             // 
-            pictBox2.Cursor = Cursors.Hand;
-            pictBox2.Image = Properties.Resources.Caesar_Salad_7_SQ_1;
-            pictBox2.Location = new Point(333, 23);
-            pictBox2.Name = "pictBox2";
-            pictBox2.Size = new Size(230, 219);
-            pictBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictBox2.TabIndex = 0;
-            pictBox2.TabStop = false;
+            userControlKomponenMakanan2.BackColor = Color.White;
+            userControlKomponenMakanan2.Location = new Point(308, 24);
+            userControlKomponenMakanan2.Name = "userControlKomponenMakanan2";
+            userControlKomponenMakanan2.Size = new Size(228, 278);
+            userControlKomponenMakanan2.TabIndex = 0;
             // 
-            // pictbox1
+            // userControlKomponenMakanan1
             // 
-            pictbox1.Cursor = Cursors.Hand;
-            pictbox1.Image = Properties.Resources.images__3__1;
-            pictbox1.Location = new Point(54, 23);
-            pictbox1.Name = "pictbox1";
-            pictbox1.Size = new Size(230, 219);
-            pictbox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictbox1.TabIndex = 0;
-            pictbox1.TabStop = false;
-            // 
-            // lblMakanan4
-            // 
-            lblMakanan4.AutoSize = true;
-            lblMakanan4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMakanan4.ForeColor = Color.Black;
-            lblMakanan4.Location = new Point(887, 255);
-            lblMakanan4.Name = "lblMakanan4";
-            lblMakanan4.Size = new Size(205, 23);
-            lblMakanan4.TabIndex = 0;
-            lblMakanan4.Text = "Sate Padang Cik Juna";
-            // 
-            // lblMakanan3
-            // 
-            lblMakanan3.AutoSize = true;
-            lblMakanan3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMakanan3.ForeColor = Color.Black;
-            lblMakanan3.Location = new Point(643, 255);
-            lblMakanan3.Name = "lblMakanan3";
-            lblMakanan3.Size = new Size(166, 23);
-            lblMakanan3.TabIndex = 0;
-            lblMakanan3.Text = "Ayam Bakar Dafri";
-            // 
-            // lblMakanan2
-            // 
-            lblMakanan2.AutoSize = true;
-            lblMakanan2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMakanan2.ForeColor = Color.Black;
-            lblMakanan2.Location = new Point(371, 255);
-            lblMakanan2.Name = "lblMakanan2";
-            lblMakanan2.Size = new Size(149, 23);
-            lblMakanan2.TabIndex = 0;
-            lblMakanan2.Text = "Salad Mas Narji";
-            // 
-            // lblMakanan1
-            // 
-            lblMakanan1.AutoSize = true;
-            lblMakanan1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMakanan1.ForeColor = Color.Black;
-            lblMakanan1.Location = new Point(71, 255);
-            lblMakanan1.Name = "lblMakanan1";
-            lblMakanan1.Size = new Size(197, 23);
-            lblMakanan1.TabIndex = 0;
-            lblMakanan1.Text = "Roti Canai Cak Rusdi";
+            userControlKomponenMakanan1.BackColor = Color.White;
+            userControlKomponenMakanan1.Cursor = Cursors.Hand;
+            userControlKomponenMakanan1.Location = new Point(23, 24);
+            userControlKomponenMakanan1.Name = "userControlKomponenMakanan1";
+            userControlKomponenMakanan1.Size = new Size(228, 278);
+            userControlKomponenMakanan1.TabIndex = 0;
+            userControlKomponenMakanan1.Load += userControlKomponenMakanan1_Click;
+            userControlKomponenMakanan1.Click += lblCart_Click;
             // 
             // guna2PictureBox1
             // 
@@ -371,17 +305,13 @@
             Name = "FormDashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormDashboard";
+            Load += FormDashboard_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picboxExitDashboard).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             guna2Panel1.ResumeLayout(false);
-            guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictbox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -402,17 +332,13 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
-        private PictureBox pictBox4;
-        private PictureBox pictBox3;
-        private PictureBox pictBox2;
-        private PictureBox pictbox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Label lblUsernameDashboard;
-        private Label lblMakanan4;
-        private Label lblMakanan3;
-        private Label lblMakanan2;
-        private Label lblMakanan1;
         private Label lblAlamatOnDashboard;
         private Guna.Charts.WinForms.GunaAreaDataset gunaAreaDataset2;
+        private UserControlKomponenMakanan userControlKomponenMakanan4;
+        private UserControlKomponenMakanan userControlKomponenMakanan3;
+        private UserControlKomponenMakanan userControlKomponenMakanan2;
+        private UserControlKomponenMakanan userControlKomponenMakanan1;
     }
 }
