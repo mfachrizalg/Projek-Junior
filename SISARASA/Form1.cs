@@ -55,7 +55,7 @@ namespace SISARASA
                         formPembeli.Show();
                         Visible = false;
                     }
-                    else if (user.role == "Penjual")
+                    else if (UserSession.Role == "Penjual")
                     {
                         SellerDashboard formPenjual = new();
                         formPenjual.Show();
