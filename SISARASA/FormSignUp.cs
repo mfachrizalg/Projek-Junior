@@ -59,17 +59,19 @@ namespace SISARASA
         private void btnSignUp_Click(object sender, EventArgs e)
         {
             var user = new Pengguna();
-            if (user.Register(txtUsernameSignUp.Text, txtEmail.Text, txtPasswordSignUp.Text, comboBoxRole.SelectedItem.ToString()))
+            var response = user.Register(txtUsernameSignUp.Text, txtEmail.Text, txtPasswordSignUp.Text, comboBoxRole.SelectedItem.ToString());
+            if (response == "Register sukses!")
             {
-                MessageBox.Show("Registration successful!");
-                Form1 form1 = new Form1();
-                form1.Show();
-                Visible = false;
+                MessageBox.Show("Register sukses!");
+                Form1 Form1 = new ();
+                this.Dispose();
+                Form1.Show();
             }
             else
             {
-                MessageBox.Show("Username or Email already exists.");
+                MessageBox.Show("Pengguna sudah ada!");
             }
+
         }
     }
 }

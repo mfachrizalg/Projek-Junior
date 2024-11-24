@@ -24,13 +24,18 @@ namespace SISARASA
 
         private void btnDoneOnConfirmPassword_Click(object sender, EventArgs e)
         {
-            // Logika validasi password
-
-            // Jika validasi sukses
-            FormProfile formProfile = new FormProfile();
-            formProfile.Show();
-            // Tutup FormEditProfile
-            this.Close(); // Tutup FormConfirmPasswordAfterEdit
+            // Validate the entered password
+            if (txtboxConfirmPasswordEditProfile.Text == UserSession.Password)
+            {
+                // If validation is successful, close the form with DialogResult.OK
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+            else
+            {
+                // If validation fails, show an error message
+                MessageBox.Show("Password tidak sesuai", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
