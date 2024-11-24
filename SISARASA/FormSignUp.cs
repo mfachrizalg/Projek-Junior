@@ -1,4 +1,6 @@
-﻿using System;
+using Microsoft.VisualBasic.ApplicationServices;
+using SISARASA.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -52,6 +54,22 @@ namespace SISARASA
         private void picboxExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            var user = new Pengguna();
+            if (user.Register(txtUsernameSignUp.Text, txtEmail.Text, txtPasswordSignUp.Text, comboBoxRole.SelectedItem.ToString()))
+            {
+                MessageBox.Show("Registration successful!");
+                Form1 form1 = new Form1();
+                form1.Show();
+                Visible = false;
+            }
+            else
+            {
+                MessageBox.Show("Username or Email already exists.");
+            }
         }
     }
 }

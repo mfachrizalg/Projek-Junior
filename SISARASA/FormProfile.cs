@@ -40,5 +40,29 @@ namespace SISARASA
             formDashboard.Show();
             Visible = false;
         }
+
+        private void btnEditProfile_Click(object sender, EventArgs e)
+        {
+            FormEditProfile formEditProfile = new FormEditProfile();
+            formEditProfile.Show();
+            Visible = false;
+        }
+
+        private void btnChangePassword_Click(object sender, EventArgs e)
+        {
+            FormChangePassword formChangePassword = new FormChangePassword();
+            formChangePassword.Show();
+            Visible = false;
+        }
+
+        private void txtboxUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtboxAlamat_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

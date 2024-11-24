@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace SISARASA
 {
-    public partial class FormDashboard : Form
+    public partial class FormInfoMakanan1 : Form
     {
-        public FormDashboard()
+        public FormInfoMakanan1()
         {
             InitializeComponent();
-            // Wire up the Click event
-            userControlKomponenMakanan1.Click += new EventHandler(userControlKomponenMakanan1_Click);
-        }
-
-        private void lblProfile_Click(object sender, EventArgs e)
-        {
-            FormProfile formProfile = new FormProfile();
-            formProfile.Show();
-            Visible = false;
         }
 
         private void picboxExitDashboard_Click(object sender, EventArgs e)
@@ -31,24 +22,36 @@ namespace SISARASA
             Application.Exit();
         }
 
+        private void lblProfile_Click(object sender, EventArgs e)
+        {
+            FormProfile formProfile = new FormProfile();
+            formProfile.Show();
+            Visible = false;
+            this.Dispose();
+        }
+
+        private void lblDashboard_Click(object sender, EventArgs e)
+        {
+            FormDashboard formDashboard = new FormDashboard();
+            formDashboard.Show();
+            Visible = false;
+            this.Dispose();
+        }
+
         private void lblCart_Click(object sender, EventArgs e)
         {
             FormCart formCart = new FormCart();
             formCart.Show();
             Visible = false;
+            this.Dispose();
         }
 
-        private void FormDashboard_Load(object sender, EventArgs e)
+        private void btnAddToCart_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void userControlKomponenMakanan1_Click(object sender, EventArgs e)
-        {
-            FormInfoMakanan1 formInfoMakanan1 = new FormInfoMakanan1();
-            formInfoMakanan1.Show();
+            FormCart formCart = new FormCart();
+            formCart.Show();
             Visible = false;
-            this.Hide();
+            this.Dispose();
         }
     }
 }

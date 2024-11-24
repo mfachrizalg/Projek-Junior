@@ -139,6 +139,7 @@
             btnSignUp.Size = new Size(265, 30);
             btnSignUp.TabIndex = 9;
             btnSignUp.Text = "Sign Up";
+            btnSignUp.Click += btnSignUp_Click;
             // 
             // label2
             // 
