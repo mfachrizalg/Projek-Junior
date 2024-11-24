@@ -15,6 +15,8 @@ namespace SISARASA
         public FormDashboard()
         {
             InitializeComponent();
+            // Wire up the Click event
+            userControlKomponenMakanan1.Click += new EventHandler(userControlKomponenMakanan1_Click);
         }
 
         private void lblProfile_Click(object sender, EventArgs e)
@@ -36,11 +38,17 @@ namespace SISARASA
             Visible = false;
         }
 
-        private void pictBox3_Click(object sender, EventArgs e)
+        private void FormDashboard_Load(object sender, EventArgs e)
         {
-            FormCart formCart = new FormCart();
-            formCart.Show();
+
+        }
+
+        private void userControlKomponenMakanan1_Click(object sender, EventArgs e)
+        {
+            FormInfoMakanan1 formInfoMakanan1 = new FormInfoMakanan1();
+            formInfoMakanan1.Show();
             Visible = false;
+            this.Hide();
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SISARASA
 {
-    public partial class KomponenMakanan : Form
+    public partial class UserControlCheckOut : UserControl
     {
-        public KomponenMakanan()
+        public UserControlCheckOut()
         {
             InitializeComponent();
         }
