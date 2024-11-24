@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SISARASA.Class
 {
-    public class Penjual
+    internal class Keranjang
     {
     }
 }

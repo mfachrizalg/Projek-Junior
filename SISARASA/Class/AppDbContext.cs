@@ -11,7 +11,6 @@ namespace SISARASA.Class
     internal class AppDbContext: DbContext
     {
         public DbSet<Pengguna> Users { get; set; }
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql("Host=aws-0-ap-southeast-1.pooler.supabase.com;Database=postgres;Username=postgres.gmeybpfyimugwepqgkwc;Password=MqaaXREOZ6pWKm6t");

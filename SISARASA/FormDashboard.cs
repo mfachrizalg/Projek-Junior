@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SISARASA.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,12 +16,23 @@ namespace SISARASA
         public FormDashboard()
         {
             InitializeComponent();
+            lblUsernameDashboard.Text = $"Hi, {UserSession.Username}";
+            if (UserSession.Alamat != null)
+            {
+                lblAlamatOnDashboard.Text = UserSession.Alamat;
+            }
+            else
+            {
+                lblAlamatOnDashboard.Text = "Alamat belum diatur";
+            }
             // Wire up the Click event
             userControlKomponenMakanan1.Click += new EventHandler(userControlKomponenMakanan1_Click);
         }
 
         private void lblProfile_Click(object sender, EventArgs e)
         {
+            string nama = lblUsernameDashboard.Text
+                .Substring(4, lblUsernameDashboard.Text.Length - 4);
             FormProfile formProfile = new FormProfile();
             formProfile.Show();
             Visible = false;

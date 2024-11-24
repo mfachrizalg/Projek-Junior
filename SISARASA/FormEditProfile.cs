@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SISARASA.Class;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace SISARASA
         public FormEditProfile()
         {
             InitializeComponent();
+            lblUsernameOnProfile.Text = UserSession.Username;
         }
 
         private void picboxExitProfile_Click(object sender, EventArgs e)
@@ -29,9 +31,47 @@ namespace SISARASA
 
         private void btnDone_Click(object sender, EventArgs e)
         {
-            FormConfirmPasswordAfterEdit formConfirmPasswordAfterEdit = new FormConfirmPasswordAfterEdit();
-            formConfirmPasswordAfterEdit.Show();
-            Visible = false;
+            // Show the password confirmation form
+            FormConfirmPasswordAfterEdit confirmPasswordForm = new FormConfirmPasswordAfterEdit();
+            if (confirmPasswordForm.ShowDialog() == DialogResult.OK)
+            {
+                using (var context = new AppDbContext())
+                {
+                    var user = context.Users.SingleOrDefault(u => u.id == UserSession.Id);
+                    if (user != null)
+                    {
+                        if (!string.IsNullOrEmpty(txtboxUsername.Text))
+                        {
+                            user.username = txtboxUsername.Text;
+                        }
+                        if (!string.IsNullOrEmpty(txtboxAlamat.Text))
+                        {
+                            user.alamat = txtboxAlamat.Text;
+                        }
+                        if (!string.IsNullOrEmpty(txtBoxNoTelephoneEditProfile.Text))
+                        {
+                            user.telephone = txtBoxNoTelephoneEditProfile.Text;
+                        }
+                        context.SaveChanges();
+
+                        // Update UserSession
+                        UserSession.Username = user.username;
+                        UserSession.Alamat = user.alamat;
+                        UserSession.NoTelephone = user.telephone;
+
+                        MessageBox.Show("Update Profil Berhasil!");
+
+                        // Navigate back to the profile form
+                        FormProfile formProfile = new FormProfile();
+                        formProfile.Show();
+                        Visible = false;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Password anda salah!");
+                    }
+                }
+            }
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
