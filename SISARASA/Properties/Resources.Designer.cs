@@ -83,6 +83,16 @@ namespace SISARASA.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AiOutlinePoweroff {
+            get {
+                object obj = ResourceManager.GetObject("AiOutlinePoweroff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AiOutlineUser {
             get {
                 object obj = ResourceManager.GetObject("AiOutlineUser", resourceCulture);
@@ -203,6 +213,16 @@ namespace SISARASA.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngtree_file_upload_icon_png_image_4646955 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-file-upload-icon-png-image_4646955", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap salad_2515150 {
             get {
                 object obj = ResourceManager.GetObject("salad_2515150", resourceCulture);
@@ -216,6 +236,16 @@ namespace SISARASA.Properties {
         internal static System.Drawing.Bitmap salad_2515150_1 {
             get {
                 object obj = ResourceManager.GetObject("salad_2515150 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x_negara_pemilik_menu_paling_sehat_di_dunia {
+            get {
+                object obj = ResourceManager.GetObject("x-negara-pemilik-menu-paling-sehat-di-dunia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
