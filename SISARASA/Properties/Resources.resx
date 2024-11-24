@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -133,6 +133,8 @@
   <data name="diet_706133 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\diet_706133 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngtree-file-upload-icon-png-image_4646955" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-file-upload-icon-png-image_4646955.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   <data name="IoLocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IoLocation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -150,6 +152,9 @@
   </data>
   <data name="Caesar-Salad_7-SQ 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Caesar-Salad_7-SQ 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="salad_2515150" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salad_2515150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -180,6 +185,12 @@
   </data>
   <data name="breakfast_2144670" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\breakfast_2144670.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x-negara-pemilik-menu-paling-sehat-di-dunia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\x-negara-pemilik-menu-paling-sehat-di-dunia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AiOutlinePoweroff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AiOutlinePoweroff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="salad_2515150" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salad_2515150.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
