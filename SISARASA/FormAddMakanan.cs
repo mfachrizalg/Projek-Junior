@@ -64,13 +64,13 @@ namespace SISARASA
                string.IsNullOrWhiteSpace(txtBoxHargaMakanan.Text) ||
                string.IsNullOrEmpty(uploadedImageUrl))
             {
-                MessageBox.Show("Please fill in all fields and upload an image.");
+                MessageBox.Show("Tolong isi semua data!");
                 return;
             }
 
-            if (!int.TryParse(txtBoxHargaMakanan.Text, out int harga))
+            if (!int.TryParse(txtBoxHargaMakanan.Text, out int harga) || !int.TryParse(txtBoxStok.Text, out int kuantitas))
             {
-                MessageBox.Show("Please enter valid numeric values for Harga, Kuantitas, and User ID.");
+                MessageBox.Show("Masukkan angka!");
                 return;
             }
 
@@ -83,6 +83,7 @@ namespace SISARASA
                         nama = txtBoxNamaMakanan.Text,
                         deskripsi = txtBoxDeskripsiMakanan.Text,
                         harga = harga,
+                        kuantitas = kuantitas,
                         gambar = uploadedImageUrl,
                         user_id = UserSession.Id
                     };

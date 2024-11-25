@@ -27,7 +27,7 @@ namespace SISARASA
         {
             if (UserSession.Role == "Pembeli")
             {
-                FormInfoMakanan1 formInfoMakanan1 = new FormInfoMakanan1();
+                FormInfoMakanan1 formInfoMakanan1 = new FormInfoMakanan1(MenuId);
                 formInfoMakanan1.Show();
                 Visible = false;
             }
@@ -43,7 +43,7 @@ namespace SISARASA
         {
             if (UserSession.Role == "Pembeli")
             {
-                FormInfoMakanan1 formInfoMakanan1 = new FormInfoMakanan1();
+                FormInfoMakanan1 formInfoMakanan1 = new FormInfoMakanan1(MenuId);
                 formInfoMakanan1.Show();
                 Visible = false;
             }

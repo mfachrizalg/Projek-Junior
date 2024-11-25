@@ -29,7 +29,9 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
@@ -45,9 +47,11 @@
             label1 = new Label();
             label2 = new Label();
             btnCheckOut = new Guna.UI2.WinForms.Guna2Button();
+            guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             userControlCheckOut1 = new UserControlCheckOut();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picboxExitCart).BeginInit();
+            guna2Panel1.SuspendLayout();
             SuspendLayout();
             // 
             // guna2BorderlessForm1
@@ -78,7 +82,7 @@
             picboxExitCart.InitialImage = null;
             picboxExitCart.Location = new Point(1228, 12);
             picboxExitCart.Name = "picboxExitCart";
-            picboxExitCart.ShadowDecoration.CustomizableEdges = customizableEdges3;
+            picboxExitCart.ShadowDecoration.CustomizableEdges = customizableEdges5;
             picboxExitCart.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             picboxExitCart.Size = new Size(54, 57);
             picboxExitCart.SizeMode = PictureBoxSizeMode.Zoom;
@@ -176,14 +180,13 @@
             label2.ForeColor = Color.FromArgb(255, 79, 24);
             label2.Location = new Point(983, 639);
             label2.Name = "label2";
-            label2.Size = new Size(180, 33);
+            label2.Size = new Size(0, 33);
             label2.TabIndex = 3;
-            label2.Text = "Rp60.000,00";
             // 
             // btnCheckOut
             // 
             btnCheckOut.BorderRadius = 10;
-            btnCheckOut.CustomizableEdges = customizableEdges1;
+            btnCheckOut.CustomizableEdges = customizableEdges3;
             btnCheckOut.DisabledState.BorderColor = Color.DarkGray;
             btnCheckOut.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCheckOut.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -193,19 +196,35 @@
             btnCheckOut.ForeColor = Color.White;
             btnCheckOut.Location = new Point(983, 688);
             btnCheckOut.Name = "btnCheckOut";
-            btnCheckOut.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnCheckOut.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnCheckOut.Size = new Size(180, 40);
             btnCheckOut.TabIndex = 7;
             btnCheckOut.Text = "Check Out";
             btnCheckOut.Click += btnCheckOut_Click;
             // 
+            // guna2Panel1
+            // 
+            guna2Panel1.BackColor = Color.White;
+            guna2Panel1.BorderColor = Color.LightGray;
+            guna2Panel1.BorderRadius = 20;
+            guna2Panel1.BorderThickness = 5;
+            guna2Panel1.Controls.Add(userControlCheckOut1);
+            guna2Panel1.CustomizableEdges = customizableEdges1;
+            guna2Panel1.Location = new Point(68, 183);
+            guna2Panel1.Name = "guna2Panel1";
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2Panel1.Size = new Size(1158, 411);
+            guna2Panel1.TabIndex = 9;
+            // 
             // userControlCheckOut1
             // 
             userControlCheckOut1.BackColor = Color.White;
-            userControlCheckOut1.Location = new Point(99, 159);
+            userControlCheckOut1.CheckoutHarga = 0;
+            userControlCheckOut1.CheckOutText = "Nama Makanan";
+            userControlCheckOut1.Location = new Point(40, 31);
             userControlCheckOut1.Name = "userControlCheckOut1";
             userControlCheckOut1.Size = new Size(804, 230);
-            userControlCheckOut1.TabIndex = 8;
+            userControlCheckOut1.TabIndex = 9;
             // 
             // FormCart
             // 
@@ -213,7 +232,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1294, 740);
-            Controls.Add(userControlCheckOut1);
+            Controls.Add(guna2Panel1);
             Controls.Add(btnCheckOut);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -226,6 +245,7 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picboxExitCart).EndInit();
+            guna2Panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -245,6 +265,7 @@
         private Guna.Charts.WinForms.GunaAreaDataset gunaAreaDataset1;
         private Guna.UI2.WinForms.Guna2Button btnCheckOut;
         private Label label2;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private UserControlCheckOut userControlCheckOut1;
     }
 }
