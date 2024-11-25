@@ -11,6 +11,9 @@ namespace SISARASA.Class
     internal class AppDbContext: DbContext
     {
         public DbSet<Pengguna> Users { get; set; }
+        public DbSet<Menu> Menus { get; set; }
+        public DbSet<Keranjang> Carts { get; set; }
+        public DbSet<Notifikasi> Notifications { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql("Host=aws-0-ap-southeast-1.pooler.supabase.com;Database=postgres;Username=postgres.gmeybpfyimugwepqgkwc;Password=MqaaXREOZ6pWKm6t");
@@ -18,6 +21,9 @@ namespace SISARASA.Class
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Pengguna>().ToTable("users");
+            modelBuilder.Entity<Menu>().ToTable("menus");
+            modelBuilder.Entity<Keranjang>().ToTable("carts");
+            modelBuilder.Entity<Notifikasi>().ToTable("notifications");
         }
     }
 }

@@ -16,5 +16,6 @@ namespace SISARASA
         public static string? Alamat { get; set; }
         public static string? Image { get; set; }
         public static string? NoTelephone { get; set; }
+        public static string? Toko { get; set; }
     }
 }

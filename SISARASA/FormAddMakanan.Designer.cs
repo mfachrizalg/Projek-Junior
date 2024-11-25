@@ -60,7 +60,7 @@
             lblUnggahMakananmu = new Label();
             txtBoxNamaMakanan = new Guna.UI2.WinForms.Guna2TextBox();
             txtBoxDeskripsiMakanan = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            txtBoxHargaMakanan = new Guna.UI2.WinForms.Guna2TextBox();
             btnUploadImageAddMakanan = new Guna.UI2.WinForms.Guna2Button();
             pictureBoxMakananAddMakanan = new Guna.UI2.WinForms.Guna2PictureBox();
             btnDoneAddMakanan = new Guna.UI2.WinForms.Guna2Button();
@@ -86,10 +86,9 @@
             panel1.Controls.Add(lblDashboardSelleronAddMakanan);
             panel1.Controls.Add(lblProfileSelleronAddMakanan);
             panel1.Controls.Add(sisarasaataskiri);
-            panel1.Location = new Point(0, -2);
-            panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Location = new Point(0, -3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1138, 71);
+            panel1.Size = new Size(1301, 95);
             panel1.TabIndex = 2;
             // 
             // lblNotifTotalonAddMakanan
@@ -97,9 +96,9 @@
             lblNotifTotalonAddMakanan.AutoSize = true;
             lblNotifTotalonAddMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNotifTotalonAddMakanan.ForeColor = Color.White;
-            lblNotifTotalonAddMakanan.Location = new Point(802, 26);
+            lblNotifTotalonAddMakanan.Location = new Point(917, 35);
             lblNotifTotalonAddMakanan.Name = "lblNotifTotalonAddMakanan";
-            lblNotifTotalonAddMakanan.Size = new Size(28, 19);
+            lblNotifTotalonAddMakanan.Size = new Size(35, 24);
             lblNotifTotalonAddMakanan.TabIndex = 11;
             lblNotifTotalonAddMakanan.Text = "(1)";
             // 
@@ -109,12 +108,11 @@
             picboxExitDashboardSeller.Image = Properties.Resources.letter_x_9313434;
             picboxExitDashboardSeller.ImageRotate = 0F;
             picboxExitDashboardSeller.InitialImage = null;
-            picboxExitDashboardSeller.Location = new Point(1078, 9);
-            picboxExitDashboardSeller.Margin = new Padding(3, 2, 3, 2);
+            picboxExitDashboardSeller.Location = new Point(1232, 12);
             picboxExitDashboardSeller.Name = "picboxExitDashboardSeller";
             picboxExitDashboardSeller.ShadowDecoration.CustomizableEdges = customizableEdges15;
             picboxExitDashboardSeller.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            picboxExitDashboardSeller.Size = new Size(47, 43);
+            picboxExitDashboardSeller.Size = new Size(54, 57);
             picboxExitDashboardSeller.SizeMode = PictureBoxSizeMode.Zoom;
             picboxExitDashboardSeller.TabIndex = 10;
             picboxExitDashboardSeller.TabStop = false;
@@ -123,10 +121,9 @@
             // pnlunderdash
             // 
             pnlunderdash.BackColor = Color.White;
-            pnlunderdash.Location = new Point(482, 46);
-            pnlunderdash.Margin = new Padding(3, 2, 3, 2);
+            pnlunderdash.Location = new Point(551, 61);
             pnlunderdash.Name = "pnlunderdash";
-            pnlunderdash.Size = new Size(44, 2);
+            pnlunderdash.Size = new Size(50, 3);
             pnlunderdash.TabIndex = 2;
             // 
             // lblNotifSellerOnAddMakanan
@@ -135,9 +132,9 @@
             lblNotifSellerOnAddMakanan.Cursor = Cursors.Hand;
             lblNotifSellerOnAddMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNotifSellerOnAddMakanan.ForeColor = Color.White;
-            lblNotifSellerOnAddMakanan.Location = new Point(710, 26);
+            lblNotifSellerOnAddMakanan.Location = new Point(811, 35);
             lblNotifSellerOnAddMakanan.Name = "lblNotifSellerOnAddMakanan";
-            lblNotifSellerOnAddMakanan.Size = new Size(96, 19);
+            lblNotifSellerOnAddMakanan.Size = new Size(118, 24);
             lblNotifSellerOnAddMakanan.TabIndex = 1;
             lblNotifSellerOnAddMakanan.Text = "Notification";
             // 
@@ -147,9 +144,9 @@
             lblDashboardSelleronAddMakanan.Cursor = Cursors.Hand;
             lblDashboardSelleronAddMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblDashboardSelleronAddMakanan.ForeColor = Color.White;
-            lblDashboardSelleronAddMakanan.Location = new Point(455, 26);
+            lblDashboardSelleronAddMakanan.Location = new Point(520, 35);
             lblDashboardSelleronAddMakanan.Name = "lblDashboardSelleronAddMakanan";
-            lblDashboardSelleronAddMakanan.Size = new Size(94, 19);
+            lblDashboardSelleronAddMakanan.Size = new Size(113, 24);
             lblDashboardSelleronAddMakanan.TabIndex = 1;
             lblDashboardSelleronAddMakanan.Text = "Dashboard";
             // 
@@ -159,9 +156,9 @@
             lblProfileSelleronAddMakanan.Cursor = Cursors.Hand;
             lblProfileSelleronAddMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblProfileSelleronAddMakanan.ForeColor = Color.White;
-            lblProfileSelleronAddMakanan.Location = new Point(598, 26);
+            lblProfileSelleronAddMakanan.Location = new Point(683, 35);
             lblProfileSelleronAddMakanan.Name = "lblProfileSelleronAddMakanan";
-            lblProfileSelleronAddMakanan.Size = new Size(58, 19);
+            lblProfileSelleronAddMakanan.Size = new Size(71, 24);
             lblProfileSelleronAddMakanan.TabIndex = 1;
             lblProfileSelleronAddMakanan.Text = "Profile";
             // 
@@ -170,9 +167,9 @@
             sisarasaataskiri.AutoSize = true;
             sisarasaataskiri.Font = new Font("Bauhaus 93", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             sisarasaataskiri.ForeColor = Color.White;
-            sisarasaataskiri.Location = new Point(32, 14);
+            sisarasaataskiri.Location = new Point(37, 19);
             sisarasaataskiri.Name = "sisarasaataskiri";
-            sisarasaataskiri.Size = new Size(141, 36);
+            sisarasaataskiri.Size = new Size(180, 45);
             sisarasaataskiri.TabIndex = 0;
             sisarasaataskiri.Text = "SISARASA";
             // 
@@ -181,9 +178,9 @@
             lblNamaMakananOnAddMakanan.AutoSize = true;
             lblNamaMakananOnAddMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNamaMakananOnAddMakanan.ForeColor = Color.Black;
-            lblNamaMakananOnAddMakanan.Location = new Point(557, 181);
+            lblNamaMakananOnAddMakanan.Location = new Point(637, 241);
             lblNamaMakananOnAddMakanan.Name = "lblNamaMakananOnAddMakanan";
-            lblNamaMakananOnAddMakanan.Size = new Size(136, 19);
+            lblNamaMakananOnAddMakanan.Size = new Size(167, 24);
             lblNamaMakananOnAddMakanan.TabIndex = 3;
             lblNamaMakananOnAddMakanan.Text = "Nama Makanan :";
             // 
@@ -192,9 +189,9 @@
             lblDeskripsiMakananOnAddMakanan.AutoSize = true;
             lblDeskripsiMakananOnAddMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblDeskripsiMakananOnAddMakanan.ForeColor = Color.Black;
-            lblDeskripsiMakananOnAddMakanan.Location = new Point(529, 213);
+            lblDeskripsiMakananOnAddMakanan.Location = new Point(605, 284);
             lblDeskripsiMakananOnAddMakanan.Name = "lblDeskripsiMakananOnAddMakanan";
-            lblDeskripsiMakananOnAddMakanan.Size = new Size(164, 19);
+            lblDeskripsiMakananOnAddMakanan.Size = new Size(202, 24);
             lblDeskripsiMakananOnAddMakanan.TabIndex = 3;
             lblDeskripsiMakananOnAddMakanan.Text = "Deskripsi Makanan :";
             // 
@@ -203,9 +200,9 @@
             lblHargaOnAddMakanan.AutoSize = true;
             lblHargaOnAddMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblHargaOnAddMakanan.ForeColor = Color.Black;
-            lblHargaOnAddMakanan.Location = new Point(555, 387);
+            lblHargaOnAddMakanan.Location = new Point(634, 516);
             lblHargaOnAddMakanan.Name = "lblHargaOnAddMakanan";
-            lblHargaOnAddMakanan.Size = new Size(138, 19);
+            lblHargaOnAddMakanan.Size = new Size(170, 24);
             lblHargaOnAddMakanan.TabIndex = 3;
             lblHargaOnAddMakanan.Text = "Harga Makanan :";
             // 
@@ -214,9 +211,9 @@
             lblUnggahFoto.AutoSize = true;
             lblUnggahFoto.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblUnggahFoto.ForeColor = Color.Black;
-            lblUnggahFoto.Location = new Point(477, 429);
+            lblUnggahFoto.Location = new Point(545, 572);
             lblUnggahFoto.Name = "lblUnggahFoto";
-            lblUnggahFoto.Size = new Size(216, 19);
+            lblUnggahFoto.Size = new Size(265, 24);
             lblUnggahFoto.TabIndex = 3;
             lblUnggahFoto.Text = "Unggah Foto Makananmu :";
             // 
@@ -224,9 +221,9 @@
             // 
             lblUnggahMakananmu.AutoSize = true;
             lblUnggahMakananmu.Font = new Font("Arial Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblUnggahMakananmu.Location = new Point(32, 105);
+            lblUnggahMakananmu.Location = new Point(37, 140);
             lblUnggahMakananmu.Name = "lblUnggahMakananmu";
-            lblUnggahMakananmu.Size = new Size(233, 27);
+            lblUnggahMakananmu.Size = new Size(290, 33);
             lblUnggahMakananmu.TabIndex = 4;
             lblUnggahMakananmu.Text = "Unggah Makananmu!";
             // 
@@ -244,14 +241,14 @@
             txtBoxNamaMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtBoxNamaMakanan.ForeColor = Color.Black;
             txtBoxNamaMakanan.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtBoxNamaMakanan.Location = new Point(691, 177);
-            txtBoxNamaMakanan.Margin = new Padding(4);
+            txtBoxNamaMakanan.Location = new Point(790, 236);
+            txtBoxNamaMakanan.Margin = new Padding(5);
             txtBoxNamaMakanan.Name = "txtBoxNamaMakanan";
             txtBoxNamaMakanan.PasswordChar = '\0';
             txtBoxNamaMakanan.PlaceholderText = "";
             txtBoxNamaMakanan.SelectedText = "";
             txtBoxNamaMakanan.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            txtBoxNamaMakanan.Size = new Size(394, 28);
+            txtBoxNamaMakanan.Size = new Size(450, 37);
             txtBoxNamaMakanan.TabIndex = 5;
             // 
             // txtBoxDeskripsiMakanan
@@ -268,39 +265,39 @@
             txtBoxDeskripsiMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtBoxDeskripsiMakanan.ForeColor = Color.Black;
             txtBoxDeskripsiMakanan.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtBoxDeskripsiMakanan.Location = new Point(691, 213);
-            txtBoxDeskripsiMakanan.Margin = new Padding(4);
+            txtBoxDeskripsiMakanan.Location = new Point(790, 284);
+            txtBoxDeskripsiMakanan.Margin = new Padding(5);
             txtBoxDeskripsiMakanan.Name = "txtBoxDeskripsiMakanan";
             txtBoxDeskripsiMakanan.PasswordChar = '\0';
             txtBoxDeskripsiMakanan.PlaceholderText = "";
             txtBoxDeskripsiMakanan.SelectedText = "";
             txtBoxDeskripsiMakanan.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            txtBoxDeskripsiMakanan.Size = new Size(394, 154);
+            txtBoxDeskripsiMakanan.Size = new Size(450, 205);
             txtBoxDeskripsiMakanan.TabIndex = 5;
             // 
-            // guna2TextBox1
+            // txtBoxHargaMakanan
             // 
-            guna2TextBox1.BorderRadius = 10;
-            guna2TextBox1.BorderThickness = 3;
-            guna2TextBox1.CustomizableEdges = customizableEdges11;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2TextBox1.ForeColor = Color.Black;
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(691, 382);
-            guna2TextBox1.Margin = new Padding(4);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            guna2TextBox1.Size = new Size(394, 28);
-            guna2TextBox1.TabIndex = 5;
+            txtBoxHargaMakanan.BorderRadius = 10;
+            txtBoxHargaMakanan.BorderThickness = 3;
+            txtBoxHargaMakanan.CustomizableEdges = customizableEdges11;
+            txtBoxHargaMakanan.DefaultText = "";
+            txtBoxHargaMakanan.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtBoxHargaMakanan.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtBoxHargaMakanan.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtBoxHargaMakanan.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtBoxHargaMakanan.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtBoxHargaMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtBoxHargaMakanan.ForeColor = Color.Black;
+            txtBoxHargaMakanan.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtBoxHargaMakanan.Location = new Point(790, 509);
+            txtBoxHargaMakanan.Margin = new Padding(5);
+            txtBoxHargaMakanan.Name = "txtBoxHargaMakanan";
+            txtBoxHargaMakanan.PasswordChar = '\0';
+            txtBoxHargaMakanan.PlaceholderText = "";
+            txtBoxHargaMakanan.SelectedText = "";
+            txtBoxHargaMakanan.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txtBoxHargaMakanan.Size = new Size(450, 37);
+            txtBoxHargaMakanan.TabIndex = 5;
             // 
             // btnUploadImageAddMakanan
             // 
@@ -313,10 +310,11 @@
             btnUploadImageAddMakanan.FillColor = Color.FromArgb(255, 79, 24);
             btnUploadImageAddMakanan.Font = new Font("Arial", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnUploadImageAddMakanan.ForeColor = Color.White;
-            btnUploadImageAddMakanan.Location = new Point(691, 425);
+            btnUploadImageAddMakanan.Location = new Point(790, 567);
+            btnUploadImageAddMakanan.Margin = new Padding(3, 4, 3, 4);
             btnUploadImageAddMakanan.Name = "btnUploadImageAddMakanan";
             btnUploadImageAddMakanan.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnUploadImageAddMakanan.Size = new Size(143, 28);
+            btnUploadImageAddMakanan.Size = new Size(163, 37);
             btnUploadImageAddMakanan.TabIndex = 6;
             btnUploadImageAddMakanan.Text = "Upload Image";
             btnUploadImageAddMakanan.Click += btnUploadImageAddMakanan_Click;
@@ -326,10 +324,11 @@
             pictureBoxMakananAddMakanan.CustomizableEdges = customizableEdges5;
             pictureBoxMakananAddMakanan.Image = Properties.Resources.add_button_15600739;
             pictureBoxMakananAddMakanan.ImageRotate = 0F;
-            pictureBoxMakananAddMakanan.Location = new Point(59, 176);
+            pictureBoxMakananAddMakanan.Location = new Point(67, 235);
+            pictureBoxMakananAddMakanan.Margin = new Padding(3, 4, 3, 4);
             pictureBoxMakananAddMakanan.Name = "pictureBoxMakananAddMakanan";
             pictureBoxMakananAddMakanan.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            pictureBoxMakananAddMakanan.Size = new Size(278, 272);
+            pictureBoxMakananAddMakanan.Size = new Size(318, 363);
             pictureBoxMakananAddMakanan.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxMakananAddMakanan.TabIndex = 7;
             pictureBoxMakananAddMakanan.TabStop = false;
@@ -345,12 +344,14 @@
             btnDoneAddMakanan.FillColor = Color.FromArgb(255, 79, 24);
             btnDoneAddMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDoneAddMakanan.ForeColor = Color.White;
-            btnDoneAddMakanan.Location = new Point(971, 479);
+            btnDoneAddMakanan.Location = new Point(1110, 639);
+            btnDoneAddMakanan.Margin = new Padding(3, 4, 3, 4);
             btnDoneAddMakanan.Name = "btnDoneAddMakanan";
             btnDoneAddMakanan.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            btnDoneAddMakanan.Size = new Size(114, 28);
+            btnDoneAddMakanan.Size = new Size(130, 37);
             btnDoneAddMakanan.TabIndex = 8;
             btnDoneAddMakanan.Text = "Done";
+            btnDoneAddMakanan.Click += btnDoneAddMakanan_Click;
             // 
             // btnCancelOnAddMakanan
             // 
@@ -363,25 +364,27 @@
             btnCancelOnAddMakanan.FillColor = Color.Silver;
             btnCancelOnAddMakanan.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCancelOnAddMakanan.ForeColor = Color.White;
-            btnCancelOnAddMakanan.Location = new Point(839, 479);
+            btnCancelOnAddMakanan.Location = new Point(959, 639);
+            btnCancelOnAddMakanan.Margin = new Padding(3, 4, 3, 4);
             btnCancelOnAddMakanan.Name = "btnCancelOnAddMakanan";
             btnCancelOnAddMakanan.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btnCancelOnAddMakanan.Size = new Size(114, 28);
+            btnCancelOnAddMakanan.Size = new Size(130, 37);
             btnCancelOnAddMakanan.TabIndex = 9;
             btnCancelOnAddMakanan.Text = "Cancel";
+            btnCancelOnAddMakanan.Click += btnCancelOnAddMakanan_Click;
             // 
             // FormAddMakanan
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1132, 555);
+            ClientSize = new Size(1294, 740);
             Controls.Add(btnCancelOnAddMakanan);
             Controls.Add(btnDoneAddMakanan);
             Controls.Add(pictureBoxMakananAddMakanan);
             Controls.Add(btnUploadImageAddMakanan);
             Controls.Add(txtBoxDeskripsiMakanan);
-            Controls.Add(guna2TextBox1);
+            Controls.Add(txtBoxHargaMakanan);
             Controls.Add(txtBoxNamaMakanan);
             Controls.Add(lblUnggahMakananmu);
             Controls.Add(lblUnggahFoto);
@@ -390,6 +393,7 @@
             Controls.Add(lblNamaMakananOnAddMakanan);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FormAddMakanan";
             Text = "FormAddMakanan";
             panel1.ResumeLayout(false);
@@ -415,7 +419,7 @@
         private Label lblDeskripsiMakananOnAddMakanan;
         private Label lblNamaMakananOnAddMakanan;
         private Guna.UI2.WinForms.Guna2TextBox txtBoxDeskripsiMakanan;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txtBoxHargaMakanan;
         private Guna.UI2.WinForms.Guna2TextBox txtBoxNamaMakanan;
         private Label lblUnggahMakananmu;
         private Label lblUnggahFoto;

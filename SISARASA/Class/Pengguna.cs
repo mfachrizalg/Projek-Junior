@@ -19,6 +19,7 @@ namespace SISARASA.Class
         public string? image { get; set; }
         public string? alamat { get; set; }
         public string? telephone { get; set; }
+        public string? toko { get; set; }
 
         public string Register(string username, string email, string password, string role)
         {
